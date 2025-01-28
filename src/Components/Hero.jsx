@@ -20,15 +20,15 @@ export default function Hero() {
 					<div className="HeroImg">
 						<img
 							className="d-block w-100"
-							src="hero-car.png"
-							alt="hero-car.png"
+							src="hero-car1.png"
+							alt="hero-car1.png"
 						/>
 					</div>
 				</Carousel.Item>
 				<Carousel.Item>
 					<div className="text-center HeroArea">
 						<p className="mt-5">Join your new car</p>
-						<h1 className="fw-bold">Toyota CHR My Dream Car</h1>
+						<h1 className="fw-bold">2022 Toyota C-HR</h1>
 						<div className="HeroButtons">
 							<button className="btn btn-outline-secondary fw-bold me-3">
 								More Details
@@ -41,15 +41,15 @@ export default function Hero() {
 					<div className="HeroImg">
 						<img
 							className="d-block w-100"
-							src="hero-car.png"
-							alt="hero-car.png"
+							src="hero-car2.png"
+							alt="hero-car2.png"
 						/>
 					</div>
 				</Carousel.Item>
 				<Carousel.Item>
 					<div className="text-center HeroArea">
 						<p className="mt-5">Hire us for your new car</p>
-						<h1 className="fw-bold">Ford Civic Type R</h1>
+						<h1 className="fw-bold">2023 Ford Expedition</h1>
 						<div className="HeroButtons">
 							<button className="btn btn-outline-secondary fw-bold me-3">
 								More Details
@@ -62,8 +62,8 @@ export default function Hero() {
 					<div className="HeroImg">
 						<img
 							className="d-block w-100"
-							src="hero-car.png"
-							alt="hero-car.png"
+							src="hero-car3.png"
+							alt="hero-car3.png"
 						/>
 					</div>
 				</Carousel.Item>

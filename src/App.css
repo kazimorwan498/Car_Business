@@ -35,6 +35,12 @@ ul li a {
 	margin-right: 10px;
 }
 
+@media screen and (max-width: 991px) {
+	.NavBar-Button a {
+		color: var(--text) !important;
+	}
+}
+
 .HeroArea > p {
 	color: var(--gray) !important;
 	font-size: 1rem;
@@ -57,9 +63,10 @@ ul li a {
 
 	&:last-child {
 		background-color: var(--primary) !important;
+		transition: all 0.2s;
 
 		&:hover {
-			filter: brightness(0.9);
+			background-color: rgb(109, 89, 216) !important;
 		}
 	}
 }

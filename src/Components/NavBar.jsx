@@ -49,7 +49,7 @@ export default function NavBar() {
 								</a>
 							</li>
 							<li className="nav-item NavBar-Button">
-								<a href="" className="nav-link text-gray">
+								<a href="" className="nav-link">
 									<i className="bi bi-person-fill d-none d-lg-inline"></i>
 									<span>Sign Up</span>
 								</a>

@@ -8,8 +8,10 @@ import Hero from "./Components/Hero";
 function App() {
 	return (
 		<>
-			<NavBar />
-			<Hero />
+			<section style={{maxWidth: "1500px", marginInline: "auto"}}>
+				<NavBar />
+				<Hero />
+			</section>
 		</>
 	);
 }
