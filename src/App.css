@@ -223,3 +223,13 @@ div.filter-search-box {
 }
 
 /* Reviews Card Section End */
+
+/* Find Vehicles Section Start */
+
+.find-vehicles-title {
+	position: absolute;
+	top: 40px;
+	width: 100%;
+}
+
+/* Find Vehicles Section End */

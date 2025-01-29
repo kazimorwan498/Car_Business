@@ -8,18 +8,18 @@ import FilterAndSearch from "./Components/Filter";
 import TrendingCard from "./Components/TrendingCard";
 import BestSelling from "./Components/BestSelling";
 import ReviewsCard from "./Components/ReviewsCard";
+import FindVehicles from "./Components/FindVehicles";
 
 function App() {
 	return (
 		<>
-			<section style={{ maxWidth: "1500px", marginInline: "auto" }}>
-				<NavBar />
-				<Hero />
-				<FilterAndSearch />
-				<TrendingCard />
-				<BestSelling />
-				<ReviewsCard />
-			</section>
+			<NavBar />
+			<Hero />
+			<FilterAndSearch />
+			<TrendingCard />
+			<BestSelling />
+			<ReviewsCard />
+			<FindVehicles />
 		</>
 	);
 }
