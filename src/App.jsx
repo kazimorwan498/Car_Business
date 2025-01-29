@@ -7,6 +7,7 @@ import Hero from "./Components/Hero";
 import FilterAndSearch from "./Components/Filter";
 import TrendingCard from "./Components/TrendingCard";
 import BestSelling from "./Components/BestSelling";
+import ReviewsCard from "./Components/ReviewsCard";
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 				<FilterAndSearch />
 				<TrendingCard />
 				<BestSelling />
+				<ReviewsCard />
 			</section>
 		</>
 	);

@@ -172,6 +172,7 @@ div.filter-search-box {
 
 .TrendingHeading {
 	margin-block: 100px 60px;
+	font-size: 28px !important;
 }
 
 .CardBtn Button:first-child {
@@ -214,3 +215,11 @@ div.filter-search-box {
 }
 
 /* Best Selling Section End */
+
+/* Reviews Card Section Start */
+
+.reviews {
+	
+}
+
+/* Reviews Card Section End */

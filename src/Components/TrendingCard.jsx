@@ -46,7 +46,7 @@ export default function TrendingCard() {
 									src={item.img}
 									style={{ borderRadius: "0.375rem" }}
 								/>
-								<Card.Body className="ps-0">
+								<Card.Body>
 									<Card.Title>{item.title}</Card.Title>
 									<Card.Text style={{ color: "#9a9ea7" }}>
 										{item.miles}
