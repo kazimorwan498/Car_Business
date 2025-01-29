@@ -17,6 +17,8 @@ body {
 	color: var(--text) !important;
 }
 
+/* Nav Section Start */
+
 ul li a {
 	color: var(--text) !important;
 	font-weight: 600 !important;
@@ -40,6 +42,10 @@ ul li a {
 		color: var(--text) !important;
 	}
 }
+
+/* Nav Section End */
+
+/* Hero Section Start */
 
 .HeroArea > p {
 	color: var(--gray) !important;
@@ -74,3 +80,61 @@ ul li a {
 .HeroImg {
 	margin-top: 90px;
 }
+
+/* Hero Section End */
+
+/* Filter Section Start */
+
+.filter-search-section-title {
+	line-height: 36px;
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+
+.vertical-line {
+	width: 1px;
+	height: 40px;
+	background-color: #ede8e9;
+}
+
+.filter-search-label {
+	color: #9a9ea7;
+	line-height: 18px;
+	font-size: 12px;
+}
+
+select.filter-search-select {
+	width: 144px !important;
+	border: none;
+	line-height: 20px;
+	padding-inline-start: 0;
+	font-size: 14px !important;
+}
+
+select.filter-search-select option {
+	padding-inline: 10px !important;
+	color: #000 !important;
+}
+
+select.filter-search-select:first-child {
+	color: #9a9ea7 !important;
+}
+
+button.search-button {
+	width: 120px;
+	height: 46px;
+	border-radius: 10px;
+	background-color: var(--primary) !important;
+	border: none !important;
+}
+
+div.filter-search-box {
+	width: 100%;
+	max-width: 970px;
+	padding: 18px;
+	margin-inline: auto;
+	border-radius: 8px;
+	box-shadow: 0 3px 4px rgb(153, 155, 168) !important;
+}
+
+/* Filter Section End */
