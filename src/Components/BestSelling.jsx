@@ -38,8 +38,7 @@ export default function BestSelling() {
 		<>
 			<div className="container" style={{ paddingTop: "86px" }}>
 				<h2
-					className="text-center fw-bold"
-					style={{ fontSize: "28px", margin: 0 }}
+					className="text-center fw-bold TrendingHeading m-0"
 				>
 					Explore best selling car makes
 				</h2>

@@ -10,7 +10,7 @@ export default function ReviewsCard() {
 			userName: "Hironaka Hiroe",
 			designation: "Chief Editor",
 			rate: "4.91",
-			rateNum: "98",
+			totalRate: "98",
 		},
 		{
 			img: "reviewsImg2.png",
@@ -20,7 +20,7 @@ export default function ReviewsCard() {
 			userName: "Debashis Bhuiyan",
 			designation: "News Editor",
 			rate: "4.65",
-			rateNum: "93",
+			totalRate: "93",
 		},
 		{
 			img: "reviewsImg3.png",
@@ -30,7 +30,7 @@ export default function ReviewsCard() {
 			userName: "Lew Silverton",
 			designation: "Chief Editor",
 			rate: "4.55",
-			rateNum: "35",
+			totalRate: "35",
 		},
 	];
 
@@ -50,7 +50,7 @@ export default function ReviewsCard() {
 									style={{ borderRadius: "0.375rem" }}
 								/>
 								<Card.Body>
-									<Card.Title>{item.title}</Card.Title>
+									<Card.Title className="fw-bold">{item.title}</Card.Title>
 									<Card.Text style={{ color: "#9a9ea7" }}>
 										{item.des}
 									</Card.Text>
@@ -89,7 +89,7 @@ export default function ReviewsCard() {
 												{item.rate}
 											</span>
 											<span style={{ color: "#9a9ea7" }}>
-												({item.rateNum})
+												({item.totalRate})
 											</span>
 										</div>
 									</div>
