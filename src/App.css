@@ -233,3 +233,18 @@ div.filter-search-box {
 }
 
 /* Find Vehicles Section End */
+
+/* Footer Section Start */
+
+.Footer-Section {
+	padding-block: 18px;
+
+	& > div {
+		max-width: 1136px;
+		margin-inline: auto;
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+/* Footer Section End */

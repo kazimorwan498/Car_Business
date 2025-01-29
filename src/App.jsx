@@ -9,6 +9,7 @@ import TrendingCard from "./Components/TrendingCard";
 import BestSelling from "./Components/BestSelling";
 import ReviewsCard from "./Components/ReviewsCard";
 import FindVehicles from "./Components/FindVehicles";
+import Footer from "./Components/Footer";
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 			<BestSelling />
 			<ReviewsCard />
 			<FindVehicles />
+			<Footer />
 		</>
 	);
 }
