@@ -8,8 +8,12 @@
 
 :root {
 	--primary: rgb(121, 99, 240);
+	--primary-hover: rgb(109, 89, 217);
+	--primary-active: rgb(99, 81, 197);
 	--gray: rgb(154, 158, 167);
+	--gray-hover: rgb(116, 119, 127);
 	--lightGray: rgb(245, 246, 247);
+	--lightGray-hover: rgb(223, 224, 225);
 	--text: rgb(13, 10, 25);
 }
 
@@ -66,13 +70,31 @@ ul li a {
 	font-size: medium;
 	padding: 10px 40px;
 	border-radius: 10px;
+	border: none;
+
+	&:first-child {
+		color: var(--gray);
+		background-color: var(--lightGray) !important;
+
+		&:hover {
+			color: var(--gray-hover);
+			background-color: var(--lightGray-hover) !important;
+		}
+		&:active {
+			color: var(--gray);
+			background-color: var(--lightGray) !important;
+		}
+	}
 
 	&:last-child {
 		background-color: var(--primary) !important;
 		transition: all 0.2s;
 
 		&:hover {
-			background-color: rgb(109, 89, 216) !important;
+			background-color: var(--primary-hover) !important;
+		}
+		&:active {
+			background-color: var(--primary-active) !important;
 		}
 	}
 }
@@ -126,6 +148,13 @@ button.search-button {
 	border-radius: 10px;
 	background-color: var(--primary) !important;
 	border: none !important;
+
+	&:hover {
+		background-color: var(--primary-hover) !important;
+	}
+	&:active {
+		background-color: var(--primary-active) !important;
+	}
 }
 
 div.filter-search-box {
