@@ -107,7 +107,7 @@ select.filter-search-select {
 	width: 144px !important;
 	border: none;
 	line-height: 20px;
-	padding-inline-start: 0;
+	/* padding-inline-start: 0; */
 	font-size: 14px !important;
 }
 
@@ -138,3 +138,23 @@ div.filter-search-box {
 }
 
 /* Filter Section End */
+
+/* Trending Section Start */
+
+.TrendingHeading {
+	margin-block: 100px 60px;
+}
+
+.CardBtn Button:first-child {
+	color: var(--primary) !important;
+	background-color: rgb(235, 232, 253) !important;
+	border: none;
+}
+
+.CardBtn Button:last-child {
+	color: var(--gray) !important;
+	background-color: var(--lightGray) !important;
+	border: none;
+}
+
+/* Trending Section End */

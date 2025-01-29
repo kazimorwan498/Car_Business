@@ -5,6 +5,7 @@ import "bootstrap/dist/js/bootstrap";
 import NavBar from "./Components/NavBar";
 import Hero from "./Components/Hero";
 import FilterAndSearch from "./Components/Filter";
+import TrendingCard from "./Components/TrendingCard";
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 				<NavBar />
 				<Hero />
 				<FilterAndSearch />
+				<TrendingCard />
 			</section>
 		</>
 	);
