@@ -187,3 +187,30 @@ div.filter-search-box {
 }
 
 /* Trending Section End */
+
+/* Best Selling Section Start */
+
+.vw-add {
+	display: flex;
+	align-items: center;
+	padding: 50px 30px;
+}
+
+.vw-logo {
+	width: 50px;
+	height: 40px;
+	object-fit: contain;
+	margin-right: 15px;
+}
+
+.vw-text {
+	font-size: 1.125rem;
+	font-weight: bold;
+}
+
+.vw-price {
+	font-size: 1rem;
+	color: #9a9ea7;
+}
+
+/* Best Selling Section End */

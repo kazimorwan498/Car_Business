@@ -22,7 +22,7 @@ const Make = () => (
 			</span>
 			<select className="form-select fw-bold filter-search-select">
 				<option className="fw-bold fs-6" selected>
-					Infinite
+					Infiniti
 				</option>
 				<option className="fw-bold fs-6" value="1">
 					One

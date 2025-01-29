@@ -6,6 +6,7 @@ import NavBar from "./Components/NavBar";
 import Hero from "./Components/Hero";
 import FilterAndSearch from "./Components/Filter";
 import TrendingCard from "./Components/TrendingCard";
+import BestSelling from "./Components/BestSelling";
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 				<Hero />
 				<FilterAndSearch />
 				<TrendingCard />
+				<BestSelling />
 			</section>
 		</>
 	);
