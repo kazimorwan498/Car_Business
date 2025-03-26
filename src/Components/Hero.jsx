@@ -3,7 +3,12 @@ import Carousel from "react-bootstrap/Carousel";
 export default function Hero() {
 	return (
 		<>
-			<Carousel className="mt-5" data-bs-theme="dark" indicators={false} style={{ maxWidth: "1500px", marginInline: "auto" }}>
+			<Carousel
+				className="mt-5 container"
+				data-bs-theme="dark"
+				indicators={false}
+				style={{ maxWidth: "1500px", marginInline: "auto" }}
+			>
 				<Carousel.Item>
 					<div className="text-center HeroArea">
 						<p className="mt-5">Meet your new car</p>

@@ -108,7 +108,7 @@ export default function FilterAndSearch() {
 				<h3 className="text-center fw-bold fs-2 filter-search-section-title">
 					Which vehicles you are looking for?
 				</h3>
-				<div className="d-flex justify-content-center align-items-center gap-3 filter-search-box">
+				<div className="d-flex flex-wrap justify-content-center align-items-center gap-3 filter-search-box">
 					<Type />
 					<Make />
 					<Year />

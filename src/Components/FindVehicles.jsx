@@ -1,7 +1,7 @@
 export default function FindVehicles() {
 	return (
 		<>
-			<div className="container FindVehicles-Section mt-5">
+			<div className="FindVehicles-Section mt-5">
 				<div className="position-relative">
 					<h2 className="text-center fw-bold find-vehicles-title">
 						Find vehicles near you
